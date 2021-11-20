@@ -1,0 +1,53 @@
+
+/*
+* 
+				{
+				margin:0;
+				padding:0;
+				outline:none;
+				}  
+*/
+
+#container{
+  width: 987px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid gray;
+
+}
+
+#name{
+  display:block;
+  background-color: #f5f4f1;
+  height: 30px;
+
+}
+h1 {
+  text-transform: uppercase;  
+  font-size: 20px;
+  font-stretch: ultra-condensed;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+  display:block;
+  border-top: 1px solid gray;
+  font-size: 18px;
+  height: 39px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:#71387c ;
+  color:white;
+}
