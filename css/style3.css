@@ -8,7 +8,6 @@
 
 #container{
   display: block;
-  width: 987px;
   height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
@@ -51,21 +50,18 @@ li {
   font-size: 20px;
   height: calc(100%/12);
   border-right: 1px solid #dddddd;
-  border-left: 1px solid #dddddd;
-  
-  
-  
+  border-left: 1px solid #dddddd;  
 }
 
 a{
   text-align: left;
   text-decoration: none;
+  width: 100%;
   margin-top:auto;
   margin-bottom: auto;
   padding-left: 12px;
-  padding-right: 600px;
+  color: black;
   
-
 }
 
 li:hover{
@@ -74,6 +70,5 @@ color:white;
 }
 
 a:hover{
-  
   color:white;
 }
