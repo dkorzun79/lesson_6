@@ -1,0 +1,50 @@
+* 
+				{
+        margin:0;
+        padding: 0;
+				outline:none;
+				}  
+
+#container{
+  display: block;
+  width: 100vmin;
+  height: 100vmin;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+#line{
+  display:block;
+}
+
+#square1{
+  display: inline-block;
+  width: calc(100vmin/5);
+  height: calc(100vmin/5);
+  background-color: #ffcf73;
+  color: #6b8fd4;
+  text-align: center;   
+}
+
+#square1::after{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}
+
+#square2{
+  display: inline-block;
+  width: calc(100vmin/5);
+  height: calc(100vmin/5);
+  background-color: #6b8fd4;
+  color:#ffcf73;
+  text-align: center;
+}
+
+#square2::after{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}
