@@ -5,7 +5,7 @@
 
     .pagination li {
       display: inline-block;
-      margin: O 5px;
+      margin: 0 5px;
     }
 
     .pagination a {
